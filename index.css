@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Pacifico&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+#name {
+    font-family: 'Pacifico', cursive;
+    font-size: 6vw;
+    color: #307FE2;
+    margin-bottom: 2vh;
+}
+#start-button {
+    border: none;
+    border-radius: 3vw;
+    width: 15vw;
+    height: 7vh;
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    background-color: #307FE2;
+    color:white;
+    font-size: 1.7vw;
+}

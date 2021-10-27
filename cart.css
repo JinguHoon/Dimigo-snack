@@ -1,0 +1,37 @@
+.cart-content{
+    width: 80vw;
+    height: 80vh;
+    background-color: #307FE2;
+    border-radius: 50px;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    font-size: 2vw;
+    padding: 1vh 2vw;
+    margin-right: 3vw;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    border: none;
+}
+.button-content{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.navigation-bar {
+    height: auto;
+    /* color: #4B53FF; */
+    opacity: 1 !important;
+    font-size: 3vw;
+}
+.no-content{
+    display: flex;
+    font-size: 5vw;
+    justify-content: center;
+    margin: 20vh 10vh;
+}
